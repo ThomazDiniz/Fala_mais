@@ -6,7 +6,7 @@ Um projeto simples para falar no microfone e transcrever o que você diz em text
 
 A forma mais fácil de usar. Funciona direto no navegador, sem instalação.
 
-**[Acesse a versão web aqui](https://SEU-USUARIO.github.io/Fala_mais/)**
+**[Acesse a versão web aqui](https://ThomazDiniz.github.io/Fala_mais/)**
 
 Para usar:
 1. Abra a página no navegador (Chrome ou Edge funcionam melhor)
