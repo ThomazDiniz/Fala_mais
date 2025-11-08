@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcritor de Áudio - Fala Mais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Transcritor de Áudio</h1>
+        </header>
+
+        <main>
+            <!-- Seleção de Microfone -->
+            <div class="section">
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                    <label for="microphoneSelect" style="margin-bottom: 0; flex: 1;">Selecione o microfone:</label>
+                    <button id="refreshMicrophones" class="btn btn-clear" style="padding: 8px 16px; margin: 0; font-size: 0.9em;">Atualizar</button>
+                </div>
+                <select id="microphoneSelect" class="select">
+                    <option value="">Carregando microfones...</option>
+                </select>
+            </div>
+
+            <!-- Controles -->
+            <div class="section" style="text-align: center;">
+                <button id="toggleBtn" class="btn btn-primary">Começar a Gravar</button>
+            </div>
+
+            <!-- Status -->
+            <div class="section">
+                <div id="status" class="status">Pronto para gravar</div>
+            </div>
+
+            <!-- Transcrição -->
+            <div class="section">
+                <label for="transcription">Transcrição:</label>
+                <textarea 
+                    id="transcription" 
+                    class="transcription-area" 
+                    placeholder="A transcrição aparecerá aqui..."
+                ></textarea>
+            </div>
+        </main>
+
+        <footer>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
